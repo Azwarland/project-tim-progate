@@ -51,3 +51,33 @@ header {
     float:right;
     margin-top: 10px;
 }
+
+footer {
+    background-color: rgba(34, 49, 52, 0.9);
+    height: 100px;
+    color: white;
+    font-family: Garamond;
+}
+footer ul {
+    list-style-type: none;
+}
+footer .footer-logo {
+    float: left;
+    line-height: 100px;
+    padding-left: 20px;
+}
+footer .footer-list {
+    float: right;
+}
+footer ul {
+    padding-right: 20px;
+}
+footer ul li {
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
